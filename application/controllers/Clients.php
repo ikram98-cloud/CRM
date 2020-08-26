@@ -12,7 +12,7 @@ class Clients extends MY_Controller {
         $this->init_permission_checker("client");
     }
 
-    /* load clients list view */
+    /* load all clients */
 
     function index() {
         $this->access_only_allowed_members();
